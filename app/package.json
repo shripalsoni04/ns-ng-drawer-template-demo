@@ -1,0 +1,61 @@
+{
+  "name": "nativescript-angular-drawer-template",
+  "main": "main.js",
+  "version": "1.0.1",
+  "author": {
+    "name": "Shripal Soni",
+    "email": "shripalsoni04@gmail.com"
+  },
+  "description": "A starter template with drawer navigation for nativescript angular projects.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shripalsoni04/nativescript-angular-drawer-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shripalsoni04/nativescript-angular-drawer-template/issues"
+  },
+  "keywords": [
+    "mobile",
+    "angular",
+    "nativescript",
+    "{N}",
+    "tns",
+    "template",
+    "drawer"
+  ],
+  "homepage": "https://github.com/shripalsoni04/nativescript-angular-drawer-template",
+  "dependencies": {
+    "@angular/common": "2.1.2",
+    "@angular/compiler": "2.1.2",
+    "@angular/core": "2.1.2",
+    "@angular/forms": "2.1.2",
+    "@angular/http": "2.1.2",
+    "@angular/platform-browser": "2.1.2",
+    "@angular/platform-browser-dynamic": "2.1.2",
+    "@angular/router": "3.1.2",
+    "nativescript-angular": "1.1.2",
+    "nativescript-telerik-ui": "^1.4.1",
+    "nativescript-theme-core": "^0.1.3",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "tns-core-modules": "2.3.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.18.0",
+    "babel-types": "6.18.0",
+    "babylon": "6.13.1",
+    "lazy": "1.0.11",
+    "nativescript-dev-typescript": "^0.3.2",
+    "typescript": "^2.0.8",
+    "zone.js": "~0.6.21"
+  },
+  "readme": "# Nativescript-Angular-Drawer-Template\nA starter template to quickly create nativescript angular projects with drawer pages.\n\n## Usage\n`tns create my-project-name --template nativescript-angular-drawer-template`\n\n## Preview\n### Android\n![android-preview](http://ngxp.io/wp-content/product-previews/nativescript-angular-drawer-template/ns-ng-drawer-template-android.gif)\n\n### iOS\n![ios-preview](http://ngxp.io/wp-content/product-previews/nativescript-angular-drawer-template/ns-ng-drawer-template-ios.gif)\n\n## How To Change Menu Items\nYou can change the menu items of drawer from `app/modules/shared/side-drawer-page/side-drawer-page.component.ts` file as shown below:\n\n```\nnavMenu: any[] = [\n    { name: 'Home', commands: ['/'] },\n    { name: 'About', commands: ['/about'] },\n    { name: 'Contact', commands: ['/contact'] }\n];\n```\n\n## How To Create New Page\nYou just need to wrap the content template of the new page inside `<side-drawer-page>` tag as shown below:\n\n```\n<side-drawer-page>\n    <GridLayout>\n        <Label text=\"Hello World\"></Label>\n    </GridLayout>\n</side-drawer-page>\n``` \nYou can refer home, contact or about sample modules for reference.\n\n",
+  "readmeFilename": "README.md",
+  "gitHead": "7f0ebe351a8f2048584fb19b9d41e714d3b5b0dd",
+  "_id": "nativescript-angular-drawer-template@1.0.1",
+  "scripts": {},
+  "_shasum": "99a9938bb4033a72fa10e18ac4eb73f5d8c40c4b",
+  "_from": "nativescript-angular-drawer-template@latest",
+  "_resolved": "file:nativescript-angular-drawer-template"
+}
